@@ -1,0 +1,1 @@
+export const marketplaceContractAddress = '0x8DF2420f830D7BA88046a54E65B81f27937B5CCB';

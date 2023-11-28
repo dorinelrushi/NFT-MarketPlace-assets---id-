@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #e7e8e8;
+  background: #070707;
+}
+.nftGrid {
+  display: flex;
+  width: 70%;
+  margin: 20px auto;
+  justify-content: center;
+  grid-gap: 15px;
+  flex-wrap: wrap;
+}
+
+.nftDrop {
+  background: rgba(26, 25, 25, 0.238);
+  padding: 10px;
+  border-radius: 19px;
+  border: 1px solid rgba(68, 67, 67, 0.292);
+}
+
+.images {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: -18px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  gap: 25px;
+
+  margin: 80px auto;
+}
+
+.imagesListing {
+  width: 100%;
+}
+
+.flexHeader {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.css-1mtmiup {
+  background-color: rgb(178, 7, 221) !important;
+  color: white !important;
+}
+
+.demoBtn {
+  background-color: rgb(178, 7, 221) !important;
+  color: white !important;
+  padding: 15px 35px;
+  cursor: pointer;
+  margin-top: 18px;
+  border-radius: 90px;
+  font-size: 19px;
+  border: none;
+}
